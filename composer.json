@@ -1,0 +1,16 @@
+{
+    "name": "razvanp/tic-tac-toe",
+    "description": "Tic-Tac-Toe Game",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Razvan Posobescu",
+            "email": "razvanposobescu@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "2.5.*@dev",
+        "yiisoft/jquery": "dev-master",
+        "twitter/bootstrap": "3.2.*@dev"
+    }
+}
