@@ -81,8 +81,6 @@ var Game = (function()
             //-- prevent default behavior
             event.preventDefault();
 
-            console.log(_options.allow_click);
-
             //-- empty cell
             if ($(this).html() == '' && _options.allow_click)
             {

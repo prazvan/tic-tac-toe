@@ -12,4 +12,4 @@ interface View
      * @return mixed
      */
     public function make($view, $arguments = array());
-} 
+}

@@ -11,10 +11,10 @@ require __DIR__.DIRECTORY_SEPARATOR.'bootstrap'.DIRECTORY_SEPARATOR.'start.php';
 try
 {
     //-- get route
-    $route = isset($_REQUEST['action']) ? $_REQUEST['action'] : null ;
+    $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
 
     //-- register a new instance and run the app
-    $App = \Lib\Application::register()->route($route);
+    \Lib\Application::register()->route($action);
 }
 catch (\Exception $ex)
 {

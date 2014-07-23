@@ -247,9 +247,8 @@ class Game extends Model
             $game['current_game']['cells_history'] = $game['cells'];
 
             //-- determinate who made the move
-            $current_player_index = ($game['current_game']['player_turn'] == 1) ? 0 : 1;
+            $current_player_index = ($game['current_game']['player_turn'] == static::PLAYER1) ? 0 : 1;
             $current_player = $game['current_game']['players'][$current_player_index];
-
 
             //-- some small validation
             if ($current_session_game['game_id'] == $game['current_game']['game_id'])
@@ -289,7 +288,7 @@ class Game extends Model
                 //-- update game in db
                 $this->update();
             }
-            else throw new \Exception("not the same game, don't cheet :)");
+            else throw new \Exception("not the same game, don't cheat :)");
         }
         catch (\Exception $ex)
         {
