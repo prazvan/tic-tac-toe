@@ -14,7 +14,9 @@ The Technologies used are:
 
 **Installation**
 
- 1. Change credentials in ```config/database.php``` to connect to the database
- 2. Import the sql dump ```sqldumps/tictactoe.sql```. from the sqldumps folder. You can also find the MySQL Workbench Model.
- 3. Optionl, install ```composer``` in order to manage and update the 3rd parties used
- 4. Your good to go :)
+ 1. Change Application environment from ```config/app.php``` to match production or development
+ 2. Change credentials in ```config/database.php``` to connect to the database
+ 3. Import the sql dump ```sqldumps/tictactoe.sql```. from the sqldumps folder. You can also find the MySQL Workbench Model.
+ 4. Optionl, install ```composer``` in order to manage and update the 3rd parties used
+ 
+***Your good to go :)***
