@@ -211,9 +211,6 @@ class History extends Model implements Interfaces\History
         }
         catch(\Exception $ex)
         {
-            //-- something went wrong rollback
-            //$this->db->rollBack();
-
             throw $ex;
         }
     }
