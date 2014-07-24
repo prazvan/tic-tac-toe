@@ -185,8 +185,7 @@ class History extends Model implements Interfaces\History
                         FROM game AS g
                         INNER JOIN history AS h on (h.game_id = g.id )
                         INNER JOIN players AS p on (p.id = h.player_id)
-                        ORDER BY g.id DESC
-                        LIMIT 10";
+                        ORDER BY g.id DESC";
 
             //-- execute query and return result
             $a_results = $this->db->fetchAll($str_sql);

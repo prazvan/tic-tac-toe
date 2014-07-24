@@ -11,9 +11,8 @@ include_once 'partials'.DIRECTORY_SEPARATOR.'header.php';
         <?php if (!empty($statistics_data)) { ?>
 
             <!-- Default panel contents -->
-            <div class="panel-heading"><strong>History of the last 10 games</strong></div>
-            <div class="panel-body">dose not show rematches</div>
-
+            <div class="panel-heading"><strong>History of the games</strong></div>
+            <div class="panel-body">does not show rematches</div>
 
             <!-- Table -->
             <table class="table">
