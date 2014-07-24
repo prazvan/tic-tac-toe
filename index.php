@@ -14,7 +14,7 @@ try
     $action = isset($_REQUEST['action']) ? $_REQUEST['action'] : null;
 
     //-- register a new instance and run the app
-    \Lib\Application::register()->route($action);
+    Lib\Application::register()->route($action);
 }
 catch (\Exception $ex)
 {

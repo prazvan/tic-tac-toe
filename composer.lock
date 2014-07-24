@@ -139,9 +139,9 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -282,9 +282,9 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
+                    "homepage": "https://github.com/schmittjoh",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -305,12 +305,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "0b51b8185e19e557175f95bb755fcd1da74cdda0"
+                "reference": "a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/0b51b8185e19e557175f95bb755fcd1da74cdda0",
-                "reference": "0b51b8185e19e557175f95bb755fcd1da74cdda0",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a",
+                "reference": "a43e8da1e821de1cc6e636ebc2c44f0d9dae5c9a",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +368,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2014-07-21 12:40:23"
+            "time": "2014-07-22 12:18:20"
         },
         {
             "name": "doctrine/inflector",
@@ -492,12 +492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "a035ee59ae73510ebdb1064e59b4b16f1da9fc66"
+                "reference": "98d693ba7bff3b14f92fea198f8ad49ac44b4872"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a035ee59ae73510ebdb1064e59b4b16f1da9fc66",
-                "reference": "a035ee59ae73510ebdb1064e59b4b16f1da9fc66",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/98d693ba7bff3b14f92fea198f8ad49ac44b4872",
+                "reference": "98d693ba7bff3b14f92fea198f8ad49ac44b4872",
                 "shasum": ""
             },
             "replace": {
@@ -535,7 +535,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2014-07-20 05:11:07"
+            "time": "2014-07-24 04:03:46"
         },
         {
             "name": "yiisoft/jquery",
@@ -569,6 +569,7 @@
         "yiisoft/jquery": 20,
         "twitter/bootstrap": 20
     },
+    "prefer-stable": false,
     "platform": [],
     "platform-dev": []
 }
