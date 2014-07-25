@@ -1,10 +1,7 @@
 tic-tac-toe
 ===========
-**Description**
 
-I Haved ussed jQuery and Twitter Bootstrap. jQuery for its powerfull Abtraction layer over javascirpt and Twitter Bootstrap for the powerfull frontend framework that it offers. Using this two libraries give me the posibility of building the design responsive thanks to Twitter bootrsrap CSS3 framework. For the backend i've use Doctrine DBAL(Database Abstraction Layer) for the many features it overs and the PDO abstration. And Composer for the package managment.
-
-The Technologies used are:
+**Technologies**
   * PHP 5 *version 5.5.12-2 is recommended*
   * MYSQL 5
   * HTML5 - Twitter Bootstrap
